@@ -95,7 +95,7 @@ return null;
 }
 ```
 
-### Singleton Scoped bean Vs GOF singleton design pattern
+### Singleton Scoped bean VS GOF singleton design pattern
 
 GOF singleton - Single object per classloader hierarchies.
 
