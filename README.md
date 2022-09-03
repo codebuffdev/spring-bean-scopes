@@ -35,13 +35,13 @@ demo1 == demo2 = true
 ### Prototype
 
 ```java
-    @Component("prototypeDemo")
-    @Scope("prototype")
-    @Scope(value = ConfigurableBeanFactory.SCOPE_PROTOTYPE)
-    public class PrototypeDemo {}
+@Component("prototypeDemo")
+@Scope("prototype")
+@Scope(value = ConfigurableBeanFactory.SCOPE_PROTOTYPE)
+public class PrototypeDemo {}
 
-   PrototypeDemo demo1 = context.getBean("prototypeDemo", PrototypeDemo.class);
-   PrototypeDemo demo2 = context.getBean("prototypeDemo", PrototypeDemo.class);
+PrototypeDemo demo1 = context.getBean("prototypeDemo", PrototypeDemo.class);
+PrototypeDemo demo2 = context.getBean("prototypeDemo", PrototypeDemo.class);
 
 demo1 == demo2 = false
 ```
