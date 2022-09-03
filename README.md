@@ -1,5 +1,4 @@
 # spring-bean-scopes
-# Spring-bean-scopes
 
 There are 6 bean scopes in Spring.
 
